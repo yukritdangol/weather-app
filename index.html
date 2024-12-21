@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Weather App</h1>
+    </header>
+
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the  city name" 
+            spellcheck="false">
+
+            <button onclick="show()" id="button"><img src="./images/search.png"></button>
+        </div>
+
+        <div class="weather">
+            <img src="./images/clouds.png" class="weather-icon" alt="rain">
+            <h3>Mostly Cloudy</h3>
+            <h3 style="margin-top: 20px;">Monday</h3>
+            <h1 class="temp">8°C</h1>
+            <h2 class="city">Liverpool</h2>
+            
+
+            <div class="details">
+                <div class="col">
+                    <img src="./images/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">91%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <img src="./images/wind.png" alt="wind">
+                    <div>
+                        <p class="humidity">26 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forcast-items-container">
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/clear.png" class="forcast-item-img" alt="clear">
+                    <h4 class="forcast-item-day">Tuesday</h4>
+                    <h5 class="forcast-item-temp">11°C</h5>
+                </div>
+
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/drizzle.png" class="forcast-item-img" alt="drizzel">
+                    <h4 class="forcast-item-day">Wednesday</h4>
+                    <h5 class="forcast-item-temp">6°C</h5>
+                </div>
+
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/clouds.png" class="forcast-item-img" alt="clouds">
+                    <h4 class="forcast-item-day">Thursday</h4>
+                    <h5 class="forcast-item-temp">9°C</h5>
+                </div>
+
+
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/rain.png" class="forcast-item-img" alt="rain">
+                    <h4 class="forcast-item-day">Friday</h4>
+                    <h5 class="forcast-item-temp">6°C</h5>
+                </div>
+
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/snow.png" class="forcast-item-img" alt="snow">
+                    <h4 class="forcast-item-day">Saturday</h4>
+                    <h5 class="forcast-item-temp">4°C</h5>
+                </div>
+
+                <div class="forcast-item">
+                    <h5 class="forcast-item-date regular-txt">20 Dec</h5>
+                    <img src="./images/mist.png" class="forcast-item-img" alt="mist">
+                    <h4 class="forcast-item-day">Sunday</h4>
+                    <h5 class="forcast-item-temp">X°C</h5>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <footer>☁ Yukrit Dangol</footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
